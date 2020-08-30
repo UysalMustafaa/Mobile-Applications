@@ -26,7 +26,7 @@ public class SurvivorBird extends ApplicationAdapter {
 	int gameState = 0;
 	float velocity = 0;
 	float gravity = 0.9f;
-	float enemyVelocity = 2;
+	float enemyVelocity = 5;
 	Random random;
 	int score = 0;
 	int scoredEnemy = 0;
