@@ -65,7 +65,7 @@
 
     <TextView
         android:id="@+id/tryText"
-        android:layout_width="209dp"
+        android:layout_width="210dp"
         android:layout_height="0dp"
         android:layout_marginBottom="32dp"
         android:gravity="clip_vertical"
