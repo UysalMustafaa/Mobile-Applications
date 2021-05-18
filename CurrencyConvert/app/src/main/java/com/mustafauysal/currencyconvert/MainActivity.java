@@ -14,7 +14,22 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
+ TextView tryText;
+    TextView cadText;
+    TextView usdText;
+    TextView jpyText;
+    TextView chfText;
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        tryText = findViewById(R.id.tryText);
+        cadText = findViewById(R.id.cadText);
+        usdText = findViewById(R.id.usdText);
+        jpyText = findViewById(R.id.jpyText);
+        chfText = findViewById(R.id.chfText);
    
     }
 
