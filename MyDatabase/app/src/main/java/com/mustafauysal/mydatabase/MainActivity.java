@@ -17,15 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
             myDatabase.execSQL("CREATE TABLE IF NOT EXISTS musicians (name VARCHAR, age INT(2))");
 
-            //myDatabase.execSQL("INSERT INTO musicians (name, age) VALUES ('James', 50)");
-
-            //myDatabase.execSQL("INSERT INTO musicians (name, age) VALUES ('Lars', 55)");
-
-            //myDatabase.execSQL("INSERT INTO musicians (name, age) VALUES ('Kirk', 60)");
-
-            //myDatabase.execSQL("INSERT INTO musicians (name, age) VALUES ('Rob', 65)");
-
-            //myDatabase.execSQL("DELETE FROM musicians WHERE name LIKE 'J%' ");
+       
 
             myDatabase.execSQL("UPDATE musicians SET age = 56 WHERE name = 'Lars'");
 
