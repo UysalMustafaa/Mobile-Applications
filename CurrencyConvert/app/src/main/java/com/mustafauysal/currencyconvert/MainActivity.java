@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String s)
         {
             super.onPostExecute(s);
-            //System.out.println("Alınan Data: " + s);
+         
 
             try {
 
